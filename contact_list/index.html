@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CONTACT LIST</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" data-toggle="modal" data-target=".bs-example-modal-lg">
+          <img alt="Contacts" src="img/contact.png">
+        </a>
+        <a class="navbar-brand" data-toggle="modal" data-target=".bs-example-modal-lg">
+          <img alt="Add" src="img/add.png">
+        </a>
+        <a class="navbar-brand" data-toggle="modal" data-target=".bs-example-modal-lg">
+          <img alt="Find" src="img/find.png">
+        </a>
+        <a class="navbar-brand" data-toggle="modal" data-target=".bs-example-modal-lg">
+          <img alt="Favourites" src="img/star.png">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <section id="seccion1" class="container text-center">
+    <div class="row">
+      <h1>Contact List</h1>
+      <div id="card-contact" class="col-xs-8 col-xs-offset-2">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="modal1 container">
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content row">
+          <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="text-center">
+            <h2>New Contact</h2>
+            <img src="img/contact 3.png" alt="perfil">
+          </div>
+          <form id="formula" class="container col-xs-10 col-xs-offset-1">
+            <div class="row">
+              <div class="form-group col-xs-6">
+                <label for="exampleInputName2">Name</label>
+                <input type="text" class="form-control" id="number" placeholder="Name">
+              </div>
+              <div class="form-group col-xs-6">
+                <label for="exampleInputName2">Surname</label>
+                <input type="text" class="form-control" id="apellido" rows="1" placeholder="Surname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputNumber1">Number</label>
+              <input type="number" class="form-control" id="celular" placeholder="555 878 8767">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Favourites
+              </label>
+            </div>
+            <button id="boton-agregar-contacto" type="submit" class="btn btn-default">Add Contact</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+
+
+  </section>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>

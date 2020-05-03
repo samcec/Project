@@ -1,0 +1,23 @@
+body {
+  padding-top: 7%;
+}
+.navbar-default{
+  background-color: sandybrown;
+}
+.navbar{
+  min-height:5%;
+  margin-bottom: 0;
+}
+#seccion1{
+  background-color: burlywood;
+  background-size: cover;
+}
+.modal-content{
+  background-color: #2196F3;
+}
+.ocultar{
+  display: none !important;
+}
+.mostrar{
+  display:block !important
+}
